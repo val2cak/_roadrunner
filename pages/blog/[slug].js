@@ -4,13 +4,13 @@ import Footer from '../../components/footer/footer';
 import { NextSeo } from 'next-seo';
 import SEO from '../../data/next-seo.config';
 import Header from '../../components/header/header';
-import BlogDetail from '../../components/blogDetail/blogDetail';
+import BlogDetail from '../../components/blog/blogDetail/blogDetail';
 import { getBlogBySlug, getBlogSlugs } from '../../lib/dataSourceAPI';
-import { PBlog } from '../../components/blogDetail/text';
+import { PBlog } from '../../components/blog/blogDetail/text';
 import { serialize } from 'next-mdx-remote/serialize';
 import { MDXRemote } from 'next-mdx-remote';
-import { Ol, Li } from '../../components/blogDetail/list';
-import { H2 } from '../../components/blogDetail/heading';
+import { Ol, Li } from '../../components/blog/blogDetail/list';
+import { H2 } from '../../components/blog/blogDetail/heading';
 const components = {
     p: PBlog,
     h2: H2,
