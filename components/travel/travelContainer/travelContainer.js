@@ -16,7 +16,7 @@ const TravelContainer = ({ destinations }) => {
                 </Row>
             ))}
             <div className='flex justify-center md:px-8 lg:px-28 pb-16 md:pb-14 lg:pb-20'>
-                <button className='mt-5 w-52 md:w-64 button text-sm flex text-center justify-center text-white font-regular hover:opacity-80'>
+                <button className='mt-5 w-52 md:w-64 button text-sm font-regular hover:opacity-80'>
                     see more
                 </button>
             </div>

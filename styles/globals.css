@@ -40,6 +40,9 @@
     border-radius: 1.25rem;
     background-color: #8eb3bc;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .registerButton {
@@ -48,6 +51,9 @@
     border-radius: 1.25rem;
     background-color: #ffd600;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .linkPass {
