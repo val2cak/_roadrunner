@@ -26,7 +26,7 @@ const Cover = () => {
                 }}
             />
             <div
-                className='absolute pl-20 2xl:top-[500px] xl:top-[500px] lg:top-[380px] md:top-[300px] tracking-wide z-10 hidden md:block font-satisfy md:text-5xl 2xl:text-6xl text-hci-cursive font-light'
+                className='absolute pl-20 2xl:top-[500px] xl:top-[480px] lg:top-[380px] md:top-[300px] tracking-wide z-10 hidden md:block font-satisfy md:text-5xl 2xl:text-6xl text-hci-cursive font-light'
                 dangerouslySetInnerHTML={{
                     __html: `chase the`,
                 }}

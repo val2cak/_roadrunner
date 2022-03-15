@@ -32,8 +32,8 @@ const AboutContainer = () => {
                     </Col>
                 </Row>
             </Row>
-            <Row className='bg-gradient-to-b from-hci-general-light to-white pb-10'>
-                <Col className='pl-5 pr-3.5 md:pl-16'>
+            <Row className='bg-gradient-to-b from-hci-general-light to-white pb-10 px-20'>
+                <Col className='flex flex-col justify-start items-start'>
                     <h1 className='-mb-10 text-4xl lg:text-5xl leading-10 font-satisfy text-hci-cursive mt-5 md:mt-2'>
                         send us a
                     </h1>
@@ -41,13 +41,13 @@ const AboutContainer = () => {
                         message.
                     </h1>
                 </Col>
-                <Col lg={8} className='flex flex-col items-center mr-12'>
+                <Col lg={8} className='flex flex-col items-center mr-24'>
                     <textarea
-                        className={`mt-5 p-2 italic text-black text-sm`}
+                        className={`mt-5 p-2 italic text-black text-sm w-[200px] md:w-[700px]`}
                         type='text'
                         placeholder='start writing...'
                         rows='10'
-                        cols='80'
+                        cols='10 md:80'
                     />
                     <br />
                     <button className='w-32 md:w-48 button text-sm md:text-base font-regular hover:opacity-80'>
