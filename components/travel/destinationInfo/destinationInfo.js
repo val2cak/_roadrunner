@@ -3,6 +3,11 @@ import { Row, Image } from 'react-bootstrap';
 const DestinationInfo = ({ destination }) => {
     return (
         <Row className='px-0 flex justify-center'>
+            <Row className='flex justify-center pb-5'>
+                <div className='flex pl-5 md:justify-center font-bold text-3xl leading-10 font-regular text-hci-general-dark md:text-5xl pt-16 md:pt-20'>
+                    destination
+                </div>
+            </Row>
             <Row className='p-0 relative'>
                 <Image
                     src={destination.desktopImage.url}
