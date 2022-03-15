@@ -34,21 +34,7 @@
     height: 400px;
 }
 
-.joinUsButton {
-    font-weight: 500;
-    height: 2.187rem;
-    border-radius: 1.25rem;
-}
-
-.registrationButton {
-    font-weight: 500;
-    height: 2.187rem;
-    border-radius: 1.25rem;
-    background-color: #ffd600;
-    color: #fff;
-}
-
-.loginButton {
+.button {
     font-weight: 500;
     height: 2.187rem;
     border-radius: 1.25rem;

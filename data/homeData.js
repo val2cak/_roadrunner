@@ -8,7 +8,7 @@ export const destinations = [
     {
         city: 'St Petersburg',
         country: 'Russia',
-        imgUrl: '/assets//stpetersburg.png',
+        imgUrl: '/assets/home/stpetersburg.png',
         slug: '/travel/st-petersburg',
     },
     {

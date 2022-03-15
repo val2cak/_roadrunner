@@ -15,7 +15,7 @@ const TravelContainer = ({ posts }) => {
                 </Row>
             ))}
             <div className='flex justify-center md:px-8 lg:px-28 pb-16 md:pb-14 lg:pb-20'>
-                <div className='pt-1.5 md:pt-1 pointer mt-5 w-52 md:w-64 loginButton text-sm text-center justify-center text-white font-regular hover:opacity-80'>
+                <div className='pt-1.5 md:pt-1 pointer mt-5 w-52 md:w-64 button text-sm text-center justify-center text-white font-regular hover:opacity-80'>
                     see more
                 </div>
             </div>

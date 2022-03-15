@@ -3,19 +3,24 @@ import { Image } from 'react-bootstrap';
 import Link from 'next/link';
 
 const ListItem = (props) => {
-    const { url, title, description, slug } = props;
+    const { url, city, country, description, slug } = props;
     return (
         <Link href={`/travel/${slug}`} passHref>
-            <a className='no-anchor-decoration no-underline text-black hover:text-black pr-0 w-full'>
+            <a className='relative no-anchor-decoration no-underline text-black hover:text-black p-0'>
                 <Image
                     fluid
                     src={url}
                     alt={description}
-                    className='w-100 hover:opacity-80'
+                    className='w-full hover:opacity-80'
                 />
-                <p className='font-regular mt-1 text-sm md:text-lg hover:opacity-80 w-full'>
-                    {title}
-                </p>
+                <div className='absolute flex flex-col text-center justify-center font-regular text-white w-full top-[30%] md:top-[40%]'>
+                    <p className='lowercase text-xl md:text-5xl lg:text-7xl'>
+                        {city}
+                    </p>
+                    <p className='uppercase text-md md:text-xl lg:text-2xl'>
+                        {country}
+                    </p>
+                </div>
             </a>
         </Link>
     );

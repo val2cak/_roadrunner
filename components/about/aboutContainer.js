@@ -48,7 +48,7 @@ const AboutContainer = () => {
                         cols='60'
                     />
                     <br />
-                    <div className='pt-1.5 md:pt-1 pointer w-32 md:w-48 joinUsButton text-center bg-hci-general-dark text-white text-sm md:text-base font-regular hover:opacity-80'>
+                    <div className='pt-1.5 md:pt-1 pointer w-32 md:w-48 button text-center bg-hci-general-dark text-white text-sm md:text-base font-regular hover:opacity-80'>
                         send
                     </div>
                 </Col>

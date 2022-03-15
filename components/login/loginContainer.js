@@ -27,7 +27,7 @@ const SignInContainer = () => {
                     </span>
                 </div>
                 <div className='mb-3 flex justify-center'>
-                    <div className='pt-1.5 md:pt-1 pointer w-52 md:w-64 loginButton text-center text-sm md:text-base font-regular text-white hover:text-white hover:opacity-80'>
+                    <div className='pt-1.5 md:pt-1 pointer w-52 md:w-64 button text-center text-sm md:text-base font-regular text-white hover:text-white hover:opacity-80'>
                         sign in
                     </div>
                 </div>
@@ -37,7 +37,7 @@ const SignInContainer = () => {
                     </span>
                 </div>
                 <div className='mb-16 flex justify-center'>
-                    <div className='pt-1.5 md:pt-1 pointer w-52 md:w-64 registrationButton text-center text-sm md:text-base font-regular hover:text-white hover:opacity-80'>
+                    <div className='pt-1.5 md:pt-1 pointer w-52 md:w-64 button text-center text-sm md:text-base font-regular hover:text-white hover:opacity-80'>
                         register here.
                     </div>
                 </div>
