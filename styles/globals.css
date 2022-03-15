@@ -42,6 +42,14 @@
     color: #fff;
 }
 
+.registerButton {
+    font-weight: 500;
+    height: 2.187rem;
+    border-radius: 1.25rem;
+    background-color: #ffd600;
+    color: #fff;
+}
+
 .linkPass {
     color: #989898;
 }

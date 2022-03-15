@@ -22,14 +22,14 @@ const SignInContainer = () => {
                     />
                 </div>
                 <div className='flex justify-center'>
-                    <span className='mt-2 pt-1 mb-20 font-regular italic linkPass text-xs'>
+                    <span className='mt-2 pt-1 mb-10 font-regular italic linkPass text-xs'>
                         forgot password?
                     </span>
                 </div>
-                <div className='mb-3 flex justify-center'>
-                    <div className='pt-1.5 md:pt-1 pointer w-52 md:w-64 button text-center text-sm md:text-base font-regular text-white hover:text-white hover:opacity-80'>
+                <div className='flex justify-center pb-3'>
+                    <button className='mt-5 w-52 md:w-64 button text-sm flex text-center justify-center text-white font-regular hover:opacity-80'>
                         sign in
-                    </div>
+                    </button>
                 </div>
                 <div className='flex justify-center'>
                     <span className='mb-1 font-regular italic linkPass text-xs'>
@@ -37,9 +37,9 @@ const SignInContainer = () => {
                     </span>
                 </div>
                 <div className='mb-16 flex justify-center'>
-                    <div className='pt-1.5 md:pt-1 pointer w-52 md:w-64 button text-center text-sm md:text-base font-regular hover:text-white hover:opacity-80'>
+                    <button className='w-52 md:w-64 registerButton text-sm flex text-center justify-center text-white font-regular hover:opacity-80'>
                         register here.
-                    </div>
+                    </button>
                 </div>
             </Col>
         </Row>
