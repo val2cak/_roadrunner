@@ -1,6 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import Image from 'next/image';
 import Link from 'next/link';
+// Assets
 import arrowRight from '../../../public/assets/icons/arrow_right.svg';
 import { destinations } from '../../../data/homeData';
 

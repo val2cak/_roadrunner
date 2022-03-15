@@ -1,8 +1,8 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
+import Link from 'next/link';
 import NavBar from './navbar';
 import BurgerNavigation from './burgerNavigation';
-import Link from 'next/link';
 
 const menuItems = ['home', 'travel', 'blog', 'about', 'login'];
 

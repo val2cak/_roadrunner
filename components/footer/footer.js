@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { Container, Col, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import Link from 'next/link';
 
 import Img from '../../public/assets/footer.png';
@@ -15,10 +15,10 @@ const legalLinks = [
 
 const renderLegalLinks = () =>
     legalLinks.map((link) => (
-        <Col className="flex justify-center" key={link.url}>
-            <div className="mb-2">
+        <Col className='flex justify-center' key={link.url}>
+            <div className='mb-2'>
                 <Link href={link.url}>
-                    <a className="no-underline text-footer-light hover:text-white">
+                    <a className='no-underline text-footer-light hover:text-white'>
                         {link.label}
                     </a>
                 </Link>
@@ -28,19 +28,19 @@ const renderLegalLinks = () =>
 
 const Footer = () => {
     return (
-        <Row className="bg-hci-footer-dark text-hci-footer-light font-regular flex justify-center">
-            <Row className="hidden md:block p-0">
+        <Row className='bg-hci-footer-dark text-hci-footer-light font-regular flex justify-center'>
+            <Row className='hidden md:block p-0'>
                 <Image
                     src={Img}
-                    layout="responsive"
-                    objectFit="cover"
-                    sizes="100%"
+                    layout='responsive'
+                    objectFit='cover'
+                    sizes='100%'
                     height={400}
-                    alt="Footer image"
+                    alt='Footer image'
                 />
             </Row>
             <Col sm={12} md={8}>
-                <Row className="flex justify-center pt-4 text-xs sm:text-sm md:text-lg">
+                <Row className='flex justify-center pt-4 text-xs sm:text-sm md:text-lg'>
                     {renderLegalLinks()}
                 </Row>
 
@@ -48,52 +48,52 @@ const Footer = () => {
                     <a
                         href={`https://www.instagram.com/`}
                         target={'_blank'}
-                        rel="noreferrer"
+                        rel='noreferrer'
                     >
-                        <span className="pr-11">
+                        <span className='pr-11'>
                             <img
-                                src="/assets/icons/instagram.svg"
-                                className="w-9 h-9"
-                                alt="instagram"
+                                src='/assets/icons/instagram.svg'
+                                className='w-9 h-9'
+                                alt='instagram'
                             />
                         </span>
                     </a>
                     <a
                         href={`https://www.linkedin.com//`}
                         target={'_blank'}
-                        rel="noreferrer"
+                        rel='noreferrer'
                     >
                         <span>
                             <img
-                                src="/assets/icons/linkedin.svg"
-                                className="w-9 h-9"
-                                alt="linkedin"
+                                src='/assets/icons/linkedin.svg'
+                                className='w-9 h-9'
+                                alt='linkedin'
                             />
                         </span>
                     </a>
                     <a
                         href={`https://www.facebook.com/`}
                         target={'_blank'}
-                        rel="noreferrer"
+                        rel='noreferrer'
                     >
-                        <span className="pr-11">
+                        <span className='pr-11'>
                             <img
-                                src="/assets/icons/facebook.svg"
-                                className="w-9 h-9"
-                                alt="facebook"
+                                src='/assets/icons/facebook.svg'
+                                className='w-9 h-9'
+                                alt='facebook'
                             />
                         </span>
                     </a>
                     <a
                         href={`https://www.twitter.com/`}
                         target={'_blank'}
-                        rel="noreferrer"
+                        rel='noreferrer'
                     >
                         <span>
                             <img
-                                src="/assets/icons/twitter.svg"
-                                className="w-9 h-9"
-                                alt="twitter"
+                                src='/assets/icons/twitter.svg'
+                                className='w-9 h-9'
+                                alt='twitter'
                             />
                         </span>
                     </a>

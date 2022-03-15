@@ -1,21 +1,14 @@
-import { Container, Row } from 'react-bootstrap';
-import Footer from '../../components/footer/footer';
+import { Container } from 'react-bootstrap';
 import { NextSeo } from 'next-seo';
-import SEO from '../../data/next-seo.config';
-import { getDestinationBySlug, getDestinationSlugs } from '../../lib/dataSourceAPI';
-import DestinationInfo from '../../components/travel/destinationInfo/destinationInfo';
-import Header from '../../components/header/header';
-import { PDestination } from '../../components/blog/blogDetail/text';
 import { serialize } from 'next-mdx-remote/serialize';
-import { MDXRemote } from 'next-mdx-remote';
-import { Ol, Li } from '../../components/blog/blogDetail/list';
-import { H2Destination } from '../../components/blog/blogDetail/heading';
-const components = {
-    p: PDestination,
-    ol: Ol,
-    li: Li,
-    h2: H2Destination,
-};
+// Components
+import Header from '../../components/header/header';
+import DestinationInfo from '../../components/travel/destinationInfo/destinationInfo';
+import Footer from '../../components/footer/footer';
+// SEO
+import SEO from '../../data/next-seo.config';
+// API
+import { getDestinationBySlug, getDestinationSlugs } from '../../lib/dataSourceAPI';
 
 const TravelDetailPage = ({ destination }) => {
     return (

@@ -1,13 +1,16 @@
 import React from 'react';
 import { useState } from 'react';
-import { Container, Row } from 'react-bootstrap';
-import Header from '../../components/header/header';
-import Footer from '../../components/footer/footer';
-import TravelContainer from '../../components/travel/travelContainer/travelContainer';
 import { NextSeo } from 'next-seo';
+import { Container, Row } from 'react-bootstrap';
+// Components
+import Header from '../../components/header/header';
+import TravelContainer from '../../components/travel/travelContainer/travelContainer';
+import { FilterTag } from '../../components/travel/travelContainer/tags';
+import Footer from '../../components/footer/footer';
+// SEO
 import SEO from '../../data/next-seo.config';
+// API
 import { getDestinations } from '../../lib/dataSourceAPI';
-import { Tag, FilterTag } from '../../components/travel/travelContainer/tags';
 
 const Travel = ({ destinations, tags }) => {
     const [activeTags, setActiveTags] = useState([]);

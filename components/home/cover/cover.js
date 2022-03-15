@@ -1,9 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
-import { Row } from 'react-bootstrap';
-import arrowDown from '../../../public/assets/icons/arrow_down.svg';
 import Link from 'next/link';
-import urlImg from '../../../public/assets/homegallery/home.png';
+import { Row } from 'react-bootstrap';
+// Assets
+import arrowDown from '../../../public/assets/icons/arrow_down.svg';
+import urlImg from '../../../public/assets/home/home.png';
 
 const Cover = () => {
     return (

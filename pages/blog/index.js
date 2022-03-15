@@ -1,11 +1,14 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import BlogContainer from '../../components/blog/blogContainer/blogContainer';
-import Footer from '../../components/footer/footer';
+import { NextSeo } from 'next-seo';
+// Components
 import Header from '../../components/header/header';
 import SearchInput from '../../components/blog/searchInput/searchInput';
-import { NextSeo } from 'next-seo';
+import BlogContainer from '../../components/blog/blogContainer/blogContainer';
+import Footer from '../../components/footer/footer';
+// SEO
 import SEO from '../../data/next-seo.config';
+// API
 import { getBlogPosts } from '../../lib/dataSourceAPI';
 
 const Blog = ({ posts }) => {
