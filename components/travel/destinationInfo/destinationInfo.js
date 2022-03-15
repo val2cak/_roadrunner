@@ -3,7 +3,7 @@ import { Row, Image } from 'react-bootstrap';
 const DestinationInfo = ({ destination }) => {
     return (
         <Row className='px-0 flex justify-center'>
-            <Row className='p-0'>
+            <Row className='p-0 relative'>
                 <Image
                     src={destination.desktopImage.url}
                     layout='responsive'
@@ -11,18 +11,14 @@ const DestinationInfo = ({ destination }) => {
                     alt='Hero image'
                     className='p-0'
                 />
-            </Row>
-
-            <Row>
-                <h1 className='flex items-center justify-center font-bold leading-10 font-regular text-lg md:text-xl lg:text-3xl py-12 md:py-16 lg:py-24'>
-                    {destination.headline}
-                </h1>
-            </Row>
-
-            <Row>
-                <h1 className='uppercase flex items-center justify-center font-bold leading-10 font-regular text-lg md:text-xl lg:text-2xl'>
-                    {destination.country}
-                </h1>
+                <div className='absolute flex flex-col text-center justify-center font-regular text-white w-full top-[30%] md:top-[40%]'>
+                    <p className='lowercase text-xl md:text-5xl lg:text-7xl'>
+                        {destination.headline}
+                    </p>
+                    <p className='uppercase text-md md:text-xl lg:text-2xl'>
+                        {destination.country}
+                    </p>
+                </div>
             </Row>
 
             <Row
