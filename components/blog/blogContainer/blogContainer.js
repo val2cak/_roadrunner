@@ -1,7 +1,7 @@
 import { Row } from 'react-bootstrap';
 import BlogItem from './blogItem';
 
-const TravelContainer = ({ posts }) => {
+const BlogContainer = ({ posts }) => {
     return (
         <Row className='flex pt-16 md:pt-14 lg:pt-14'>
             {posts.map((post) => (
@@ -23,4 +23,4 @@ const TravelContainer = ({ posts }) => {
     );
 };
 
-export default TravelContainer;
+export default BlogContainer;
