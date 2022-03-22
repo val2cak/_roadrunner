@@ -15,7 +15,7 @@ const Review = ({ posts }) => {
     return (
         <>
             <NextSeo title={`${SEO.title} - review`} />
-            <Container fluid className={'no-gutters p-0'}>
+            <Container fluid className={'no-gutters'}>
                 <Header classes='h-30' />
                 <ReviewsInfo />
                 <ReviewContainer posts={posts} />

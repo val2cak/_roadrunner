@@ -5,15 +5,18 @@ import { AiFillStar } from 'react-icons/ai';
 const ReviewItem = (props) => {
     const { url, title, description, text } = props;
     return (
-        <section className='flex flex-row no-anchor-decoration no-underline text-black hover:text-black p-0 bg-gradient-to-b from-hci-general-dark to-hci-general-middle'>
-            <Col sm={12} lg={4} className='py-20 flex justify-center'>
+        <section className='flex flex-row no-anchor-decoration no-underline text-black hover:text-black p-3 bg-gradient-to-b from-hci-general-dark to-hci-general-middle'>
+            <Col
+                sm={12}
+                lg={4}
+                className='py-20 hidden md:block flex justify-center'
+            >
                 <Image
                     src={url}
                     alt={description}
                     layout='fixed'
                     width={450}
                     height={450}
-                    objectFit='cover'
                     priority
                     className='p-3'
                 />
