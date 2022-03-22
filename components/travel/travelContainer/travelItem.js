@@ -2,10 +2,10 @@ import React from 'react';
 import { Image } from 'react-bootstrap';
 import Link from 'next/link';
 
-const ListItem = (props) => {
+const TravelItem = (props) => {
     const { url, city, country, description, slug } = props;
     return (
-        <Link href={`/travel/${slug}`} passHref>
+        <Link href={`/travel/${slug}`} className='pt-10' passHref>
             <a className='relative no-anchor-decoration no-underline text-black hover:text-black p-0'>
                 <Image
                     fluid
@@ -26,4 +26,4 @@ const ListItem = (props) => {
     );
 };
 
-export default ListItem;
+export default TravelItem;

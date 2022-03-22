@@ -10,7 +10,7 @@ const BurgerNavigation = ({ isOpen, menuItems, setIsOpen }) => {
         >
             <NavBar
                 menuItems={menuItems}
-                classes="flex flex-col h-full w-full justify-center items-center text-white"
+                classes='flex flex-col h-full w-full justify-center items-center text-white'
             />
         </main>
     );

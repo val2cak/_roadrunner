@@ -35,7 +35,7 @@ const Travel = ({ destinations, tags }) => {
             <Container fluid className={'no-gutters'}>
                 <Header classes='h-30' />
                 <Row className='flex justify-center'>
-                    <div className='flex pl-5 md:justify-center font-bold text-3xl leading-10 font-regular text-hci-general-dark md:text-5xl pt-16 md:pt-20'>
+                    <div className='flex pl-5 justify-center font-bold text-3xl leading-10 font-regular text-hci-general-dark md:text-5xl pt-16 md:pt-20'>
                         travel
                     </div>
                 </Row>

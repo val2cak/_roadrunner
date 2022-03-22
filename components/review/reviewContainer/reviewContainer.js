@@ -3,7 +3,7 @@ import ReviewItem from './reviewItem';
 
 const ReviewContainer = ({ posts }) => {
     return (
-        <Row className='flex pt-16 md:pt-14 lg:pt-14'>
+        <Row className='flex pb-16 md:pb-14 lg:pb-14'>
             {posts.map((post) => (
                 <Row className={`p-0`} key={post.sys.id}>
                     <ReviewItem

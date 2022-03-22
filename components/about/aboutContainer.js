@@ -4,7 +4,7 @@ const AboutContainer = () => {
         <>
             <Row className='bg-gradient-to-b from-hci-general-dark to-hci-general-light'>
                 <Row className='flex justify-center'>
-                    <div className='flex pl-5 md:justify-center font-bold text-3xl leading-10 font-regular text-white md:text-5xl pt-16 md:pt-20'>
+                    <div className='flex pl-5 justify-center font-bold text-3xl leading-10 font-regular text-white md:text-5xl pt-16 md:pt-20'>
                         about
                     </div>
                 </Row>
