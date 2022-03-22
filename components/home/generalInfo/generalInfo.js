@@ -16,14 +16,18 @@ const GeneralInfo = () => {
                     className={`rounded-lg`}
                 />
             </Col>
-            <Col sm={12} lg={6} className='pr-5 lg:pr-72 items-baseline'>
+            <Col
+                sm={12}
+                lg={6}
+                className='pr-5 lg:pr-72 items-baseline pl-7 md:pl-0 '
+            >
                 <h1 className='-mb-10 text-4xl lg:text-4xl leading-10 font-satisfy text-hci-cursive mt-5 md:mt-2'>
                     why
                 </h1>
                 <h1 className='text-white font-bold text-4xl lg:text-4xl leading-10 font-regular md:mt-2 pb-3'>
                     choose us?
                 </h1>
-                <p className='text-sm text-white lg:text-md font-regular mb-5 sm:mb-2 flex items-center'>
+                <p className='text-sm text-white lg:text-md font-regular mb-2 md:mb-5 flex items-center'>
                     Do you ever feel like all travel agencies out there only see you
                     as a sales statistic? You feel like you don’t really matter as an
                     individual. There’s always something hidden, that you find out

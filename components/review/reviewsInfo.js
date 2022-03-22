@@ -10,7 +10,7 @@ const ReviewsInfo = () => {
             </Row>
 
             <Row sm={12} lg={8} className='flex justify-center'>
-                <p className='text-sm text-white lg:text-md font-regular m-5 flex items-center justify-center'>
+                <p className='text-sm text-white lg:text-md font-regular m-5 flex text-center justify-center'>
                     We really value your opinion. Whether it is good or bad, we want
                     to hear your experience. We want to be better. Tell us how.
                 </p>
