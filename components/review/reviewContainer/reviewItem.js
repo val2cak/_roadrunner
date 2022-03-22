@@ -1,14 +1,33 @@
 import React from 'react';
-import { Image } from 'react-bootstrap';
+import { Image, Col } from 'react-bootstrap';
+import { AiFillStar } from 'react-icons/ai';
 
 const ReviewItem = (props) => {
     const { url, title, description, text } = props;
     return (
         <section className='flex flex-row no-anchor-decoration no-underline text-black hover:text-black p-0 bg-gradient-to-b from-hci-general-dark to-hci-general-middle'>
-            <Image fluid src={url} alt={description} className='p-3' />
+            <Col sm={12} lg={4} className='py-20 flex justify-center'>
+                <Image
+                    src={url}
+                    alt={description}
+                    layout='fixed'
+                    width={450}
+                    height={450}
+                    objectFit='cover'
+                    priority
+                    className='p-3'
+                />
+            </Col>
             <div className='flex flex-col text-center justify-center font-regular text-white'>
-                <p className='text-xl md:text-2xl lg:text-3xl border-b-1'>{title}</p>
-                <p className='text-md md:text-lg lg:text-xl pt-10'>{text}</p>
+                <p className='text-xl md:text-2xl lg:text-3xl'>{title}</p>
+                <p className='flex justify-center text-hci-cursive text-3xl py-3'>
+                    <AiFillStar />
+                    <AiFillStar />
+                    <AiFillStar />
+                    <AiFillStar />
+                    <AiFillStar />
+                </p>
+                <p className='text-md md:text-lg lg:text-xl px-5'>{text}</p>
             </div>
         </section>
     );
