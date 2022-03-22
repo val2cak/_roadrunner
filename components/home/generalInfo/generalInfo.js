@@ -1,7 +1,7 @@
 import { Row, Col } from 'react-bootstrap';
 import Image from 'next/image';
 
-const BannerWithImage = () => {
+const GeneralInfo = () => {
     return (
         <Row className='flex items-center bg-gradient-to-b from-hci-general-dark to-hci-general-light'>
             <Col sm={12} lg={6} className='py-20 flex justify-center'>
@@ -43,4 +43,4 @@ const BannerWithImage = () => {
     );
 };
 
-export default BannerWithImage;
+export default GeneralInfo;

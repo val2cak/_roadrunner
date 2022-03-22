@@ -4,7 +4,7 @@ import Link from 'next/link';
 import NavBar from './navbar';
 import BurgerNavigation from './burgerNavigation';
 
-const menuItems = ['home', 'travel', 'blog', 'about', 'login'];
+const menuItems = ['home', 'travel', 'blog', 'review', 'about', 'login'];
 
 import { useEffect, useState } from 'react';
 const Header = () => {

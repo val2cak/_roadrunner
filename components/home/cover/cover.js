@@ -9,7 +9,7 @@ import urlImg from '../../../public/assets/home/home.png';
 const Cover = () => {
     return (
         <Row className=''>
-            <div className='hidden md:block z--1 w-full flex justify-between items-center'>
+            <div className='hidden md:block z--1 w-full flex justify-between items-center p-0'>
                 <Image
                     src={urlImg}
                     layout='responsive'
