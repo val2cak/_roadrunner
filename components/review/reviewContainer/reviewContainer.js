@@ -3,7 +3,7 @@ import ReviewItem from './reviewItem';
 
 const ReviewContainer = ({ posts }) => {
     return (
-        <Row className='flex pb-16 md:pb-14 lg:pb-14'>
+        <section className='flex flex-col pb-16 md:pb-14 lg:pb-14'>
             {posts.map((post) => (
                 <Row className={`p-0`} key={post.sys.id}>
                     <ReviewItem
@@ -20,7 +20,7 @@ const ReviewContainer = ({ posts }) => {
                     see more
                 </button>
             </div>
-        </Row>
+        </section>
     );
 };
 
