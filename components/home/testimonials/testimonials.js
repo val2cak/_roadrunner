@@ -9,7 +9,7 @@ const renderDestinations = (props) => {
     return props.map((i, id) => {
         return (
             <Link href={i.slug} key={id} passHref>
-                <Col className='relative text-center pb-16 mb-2 lg:pr-5 pointer hover:opacity-80'>
+                <Col className='relative text-center pb-16 px-3 mb-2 lg:pr-5 cursor-pointer hover:opacity-80'>
                     <figure>
                         <Image
                             src={i.imgUrl}
@@ -55,7 +55,7 @@ const Testimonials = () => {
                         choose from. <br /> Just click on the button below.
                     </p>
                 </Row>
-                <div className='wrapper lg:pl-16 lg:pr-6 2xl:pl-24'>
+                <div className='flex overflow-x-auto lg:pl-16 lg:pr-6 2xl:pl-24'>
                     {renderDestinations(destinations)}
                 </div>
                 <div className='tracking-wide z-10 row text-hci-general-dark font-bold font-regular'>

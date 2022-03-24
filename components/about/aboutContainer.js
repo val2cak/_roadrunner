@@ -41,13 +41,13 @@ const AboutContainer = () => {
                         message.
                     </h1>
                 </Col>
-                <Col lg={8} className='flex flex-col items-center mr-24'>
+                <Col lg={6} className='flex flex-col items-center mr-24'>
                     <textarea
                         className={`mt-5 p-2 italic text-black text-sm w-[200px] md:w-[700px]`}
                         type='text'
                         placeholder='start writing...'
                         rows='10'
-                        cols='10 md:80'
+                        cols='10 md:50'
                     />
                     <br />
                     <button className='w-32 md:w-48 button text-sm md:text-base font-regular hover:opacity-80'>

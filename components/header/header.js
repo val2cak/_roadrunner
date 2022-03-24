@@ -20,14 +20,14 @@ const Header = () => {
 
     return (
         <Row className='pr-0'>
-            <header className='pl-5 lg:pl-10 pt-4 relative flex flex-col bg-hci-header md:bg-transparent sm:h-28'>
+            <header className='pl-5 lg:pl-10 pt-4 relative flex flex-col bg-hci-header lg:bg-transparent sm:h-28'>
                 <div className='z-10 flex justify-between items-center'>
                     <Link href='/'>
-                        <a className='no-underline z-10 pb-6 items-center text-hci-white md:text-hci-general-dark text-3xl md:text-2xl lg:text-3xl font-regular font-bold hover:text-hci-general-middle'>
+                        <a className='no-underline z-10 pb-6 items-center text-hci-white lg:text-hci-general-dark text-3xl md:text-2xl lg:text-3xl font-regular font-bold hover:text-hci-general-middle'>
                             roadrunner
                         </a>
                     </Link>
-                    <div className='pb-6 flex items-center md:hidden'>
+                    <div className='pb-6 md:pl-[500px] flex items-center lg:hidden'>
                         <BurgerNavigation
                             navigationItems={navigationItems}
                             isOpen={isClicked}

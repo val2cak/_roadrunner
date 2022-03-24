@@ -10,7 +10,7 @@ const Cover = () => {
         <Row className=''>
             <figure className='hidden md:block z--1 w-full justify-between items-center p-0'>
                 <div className='absolute 2xl:top-[550px] 2xl:left-[1250px] xl:top-[500px] xl:left-[1000px] lg:top-[400px] lg:left-[800px] md:top-[300px] md:left-[600px] tracking-wide z-10 row text-white font-bold font-regular'>
-                    <div className='flex items-center hover:text-hci-footer-light'>
+                    <div className='hidden lg:block flex items-center hover:text-hci-footer-light'>
                         <p className='inline-block'>
                             <Image
                                 src={arrowDown}

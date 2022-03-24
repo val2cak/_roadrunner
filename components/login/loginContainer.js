@@ -22,7 +22,7 @@ const SignInContainer = () => {
                     />
                 </div>
                 <div className='flex justify-center'>
-                    <span className='mt-2 pt-1 mb-10 font-regular italic linkPass text-xs'>
+                    <span className='mt-2 pt-1 mb-10 font-regular italic loginInfo text-xs'>
                         forgot password?
                     </span>
                 </div>
@@ -32,7 +32,7 @@ const SignInContainer = () => {
                     </button>
                 </div>
                 <div className='flex justify-center'>
-                    <span className='mb-1 font-regular italic linkPass text-xs'>
+                    <span className='mb-1 font-regular italic loginInfo text-xs'>
                         don't have an account yet?
                     </span>
                 </div>

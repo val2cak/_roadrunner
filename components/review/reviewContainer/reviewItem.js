@@ -9,7 +9,7 @@ const ReviewItem = (props) => {
             <Col
                 sm={12}
                 lg={4}
-                className='py-20 hidden md:block flex justify-center'
+                className='py-20 hidden lg:block flex justify-center'
             >
                 <Image
                     src={url}
