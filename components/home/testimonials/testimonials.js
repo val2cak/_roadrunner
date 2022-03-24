@@ -9,7 +9,7 @@ const renderDestinations = (props) => {
     return props.map((i, id) => {
         return (
             <Link href={i.slug} key={id} passHref>
-                <Col className='relative text-center pb-16 mb-2 pr-4 lg:pr-5 pointer hover:opacity-80'>
+                <Col className='relative text-center pb-16 mb-2 lg:pr-5 pointer hover:opacity-80'>
                     <figure>
                         <Image
                             src={i.imgUrl}
@@ -41,10 +41,7 @@ const renderDestinations = (props) => {
 const Testimonials = () => {
     return (
         <>
-            <Container
-                fluid
-                className='bg-gradient-to-b from-hci-general-light to-white pb-20 p-0'
-            >
+            <Row className='bg-gradient-to-b from-hci-general-light to-white pb-20'>
                 <Row className='flex justify-start'>
                     <h1 className='-mb-11 px-20 text-4xl lg:text-4xl leading-10 font-satisfy text-hci-cursive mt-5 md:mt-2 2xl:pl-48'>
                         start
@@ -76,7 +73,7 @@ const Testimonials = () => {
                         </a>
                     </Link>
                 </div>
-            </Container>
+            </Row>
         </>
     );
 };
