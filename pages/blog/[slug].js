@@ -9,7 +9,7 @@ import Footer from '../../components/footer/footer';
 // SEO
 import SEO from '../../data/next-seo.config';
 // API
-import { getBlogBySlug, getBlogSlugs } from '../../lib/dataSourceAPI';
+import { getBlogBySlug, getBlogSlugs } from '../../lib/blogAPI';
 
 const BlogDetailPage = ({ blog }) => {
     return (

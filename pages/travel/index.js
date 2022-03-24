@@ -10,7 +10,7 @@ import Footer from '../../components/footer/footer';
 // SEO
 import SEO from '../../data/next-seo.config';
 // API
-import { getDestinations } from '../../lib/dataSourceAPI';
+import { getDestinations } from '../../lib/travelAPI';
 
 const Travel = ({ destinations, tags }) => {
     const [activeTags, setActiveTags] = useState([]);

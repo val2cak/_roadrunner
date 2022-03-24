@@ -8,7 +8,7 @@ import Footer from '../../components/footer/footer';
 // SEO
 import SEO from '../../data/next-seo.config';
 // API
-import { getDestinationBySlug, getDestinationSlugs } from '../../lib/dataSourceAPI';
+import { getDestinationBySlug, getDestinationSlugs } from '../../lib/travelAPI';
 
 const TravelDetailPage = ({ destination }) => {
     return (

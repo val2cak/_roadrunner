@@ -42,7 +42,7 @@ module.exports = {
                     DEFAULT: '#FFFFFF',
                 },
             },
-            backgroundImage: (theme) => ({
+            backgroundImage: () => ({
                 'hero-cover': "url('assets/cover.png')",
                 'fm-cover': "url('assets/fm-cover.png')",
             }),

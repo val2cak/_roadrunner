@@ -8,7 +8,7 @@ import Footer from '../../components/footer/footer';
 // SEO
 import SEO from '../../data/next-seo.config';
 // API
-import { getReviewPosts } from '../../lib/dataSourceAPI';
+import { getReviewPosts } from '../../lib/reviewAPI';
 import ReviewsInfo from '../../components/review/reviewsInfo';
 
 const Review = ({ posts }) => {

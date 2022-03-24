@@ -2,7 +2,7 @@ import Link from 'next/link';
 import slugify from 'slugify';
 import { useRouter } from 'next/router';
 
-const NavBar = ({ classes, menuItems }) => {
+const NavBar = ({ classes, navigationItems }) => {
     const router = useRouter();
     const isActive = (pathname) =>
         router.pathname.split('/')[1] === pathname.split('/')[1];
@@ -12,7 +12,7 @@ const NavBar = ({ classes, menuItems }) => {
                 classes ? 'block' : 'hidden'
             } pr-4 md:inline-flex font-medium  ${classes}`}
         >
-            {menuItems.map((item, index) => {
+            {navigationItems.map((item, index) => {
                 const menuItemPath = index
                     ? `/${slugify(item, { lower: true })}`
                     : '/';

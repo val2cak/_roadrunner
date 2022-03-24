@@ -3,10 +3,9 @@ import { Row } from 'react-bootstrap';
 import Link from 'next/link';
 import NavBar from './navbar';
 import BurgerNavigation from './burgerNavigation';
-
-const menuItems = ['home', 'travel', 'blog', 'review', 'about', 'login'];
-
+import { navigationItems } from '../../data/navbarList';
 import { useEffect, useState } from 'react';
+
 const Header = () => {
     const [isClicked, setIsClicked] = useState(false);
 
@@ -30,7 +29,7 @@ const Header = () => {
                     </Link>
                     <div className='pb-6 flex items-center md:hidden'>
                         <BurgerNavigation
-                            menuItems={menuItems}
+                            navigationItems={navigationItems}
                             isOpen={isClicked}
                             setIsOpen={setIsClicked}
                         />
@@ -45,7 +44,7 @@ const Header = () => {
                         />
                     </div>
                     <div className='flex justify-end'>
-                        <NavBar menuItems={menuItems} />
+                        <NavBar navigationItems={navigationItems} />
                     </div>
                 </div>
             </header>

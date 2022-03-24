@@ -1,6 +1,6 @@
 import NavBar from './navbar';
 
-const BurgerNavigation = ({ isOpen, menuItems, setIsOpen }) => {
+const BurgerNavigation = ({ isOpen, navigationItems, setIsOpen }) => {
     return (
         <main
             className={`${
@@ -9,7 +9,7 @@ const BurgerNavigation = ({ isOpen, menuItems, setIsOpen }) => {
             onClick={() => setIsOpen(!isOpen)}
         >
             <NavBar
-                menuItems={menuItems}
+                navigationItems={navigationItems}
                 classes='flex flex-col h-full w-full justify-center items-center text-white'
             />
         </main>
