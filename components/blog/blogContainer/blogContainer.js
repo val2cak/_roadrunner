@@ -4,7 +4,7 @@ import BlogItem from './blogItem';
 const BlogContainer = ({ posts }) => {
     return (
         <>
-            <Row className='flex pt-16 md:pt-14 lg:pt-14'>
+            <section className='flex flex-col pt-16 md:pt-14 lg:pt-14'>
                 {posts.map((post) => (
                     <Row className={`mb-16 p-0`} key={post.sys.id}>
                         <BlogItem
@@ -20,7 +20,7 @@ const BlogContainer = ({ posts }) => {
                         see more
                     </button>
                 </div>
-            </Row>
+            </section>
         </>
     );
 };

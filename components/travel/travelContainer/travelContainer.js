@@ -4,7 +4,7 @@ import TravelItem from './travelItem';
 const TravelContainer = ({ destinations }) => {
     return (
         <>
-            <Row className='flex pt-16 md:pt-14 lg:pt-14'>
+            <section className='flex flex-col pt-16 md:pt-14 lg:pt-14'>
                 {destinations.map((destination) => (
                     <Row className={`mb-16 p-0`} key={destination.sys.id}>
                         <TravelItem
@@ -21,7 +21,7 @@ const TravelContainer = ({ destinations }) => {
                         see more
                     </button>
                 </div>
-            </Row>
+            </section>
         </>
     );
 };
