@@ -10,24 +10,28 @@ const renderDestinations = (props) => {
         return (
             <Link href={i.slug} key={id} passHref>
                 <Col className='relative text-center pb-16 mb-2 pr-4 lg:pr-5 pointer hover:opacity-80'>
-                    <Image
-                        src={i.imgUrl}
-                        width={245}
-                        height={400}
-                        layout='fixed'
-                        alt='Hero image'
-                        className={`rounded-lg`}
-                    />
-                    <div
-                        className={`absolute w-full h-full top-[50%] left-[-4%] 2xl:left-[-2%] pt-2 font-regular text-sm lg:text-lg font-bold text-white`}
-                    >
-                        {i.city}
-                    </div>
-                    <div
-                        className={`uppercase absolute w-full h-full top-[60%] left-[-4%] 2xl:left-[-2%] pt-2 font-regular text-sm lg:text-md text-white`}
-                    >
-                        {i.country}
-                    </div>
+                    <figure>
+                        <Image
+                            src={i.imgUrl}
+                            width={245}
+                            height={400}
+                            layout='fixed'
+                            alt='Hero image'
+                            className={`rounded-lg`}
+                        />
+                        <figcaption>
+                            <div
+                                className={`absolute w-full h-auto top-[50%] left-[-4%] 2xl:left-[-2%] pt-2 font-regular text-sm lg:text-lg font-bold text-white`}
+                            >
+                                {i.city}
+                            </div>
+                            <div
+                                className={`uppercase absolute w-full h-auto top-[60%] left-[-4%] 2xl:left-[-2%] pt-2 font-regular text-sm lg:text-md text-white`}
+                            >
+                                {i.country}
+                            </div>
+                        </figcaption>
+                    </figure>
                 </Col>
             </Link>
         );
@@ -39,7 +43,6 @@ const Testimonials = () => {
         <>
             <Container
                 fluid
-                id='destinations'
                 className='bg-gradient-to-b from-hci-general-light to-white pb-20 p-0'
             >
                 <Row className='flex justify-start'>
