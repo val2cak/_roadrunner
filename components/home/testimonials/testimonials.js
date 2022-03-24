@@ -9,7 +9,7 @@ const renderDestinations = (props) => {
     return props.map((i, id) => {
         return (
             <Link href={i.slug} key={id} passHref>
-                <Col className='relative text-center pb-16 mb-2 pr-4 lg:pr-5 pointer hover:opacity-80'>
+                <Col className='relative text-center pb-16 mb-2 pr-3 lg:pr-5 pointer hover:opacity-80'>
                     <figure>
                         <Image
                             src={i.imgUrl}
