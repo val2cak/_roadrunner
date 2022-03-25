@@ -2,7 +2,7 @@ import Link from 'next/link';
 import slugify from 'slugify';
 import { useRouter } from 'next/router';
 
-const NavBar = ({ classes, navigationItems }) => {
+const NavBar = ({ navigationItems }) => {
     const router = useRouter();
     const isActive = (pathname) =>
         router.pathname.split('/')[1] === pathname.split('/')[1];
