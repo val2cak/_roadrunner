@@ -2,7 +2,7 @@ import Link from 'next/link';
 import slugify from 'slugify';
 import { useRouter } from 'next/router';
 
-const NavBar = ({ navigationItems }) => {
+const NavBar = ({ classes, navigationItems }) => {
     const router = useRouter();
     const isActive = (pathname) =>
         router.pathname.split('/')[1] === pathname.split('/')[1];
@@ -19,10 +19,10 @@ const NavBar = ({ navigationItems }) => {
                 return (
                     <Link key={item} href={menuItemPath} passHref>
                         <a
-                            className={`no-underline mb-2.5 px-7 lg:px-8 py-2 whitespace-nowrap hover:bg-hci-general-middle lg:hover:bg-hci-general-dark font-regular text-2xl ${
+                            className={`no-underline lg:text-hci-general-dark mb-2.5 px-7 lg:px-8 py-2 whitespace-nowrap hover:bg-hci-general-middle lg:hover:bg-hci-general-dark font-regular text-2xl ${
                                 isActive(menuItemPath)
-                                    ? 'bg-hci-general-dark text-white font-bold'
-                                    : 'text-hci-general-dark'
+                                    ? 'bg-hci-general-middle lg:bg-hci-general-dark text-white font-bold'
+                                    : ''
                             } hover:text-white cursor-pointer`}
                         >
                             {item}
