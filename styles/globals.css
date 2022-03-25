@@ -8,6 +8,10 @@
 
 @import 'tailwindcss/utilities';
 
+a {
+    color: white;
+}
+
 .z--1 {
     z-index: -1;
 }
