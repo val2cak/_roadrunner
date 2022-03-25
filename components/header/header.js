@@ -23,7 +23,7 @@ const Header = () => {
             <header className='pl-5 lg:pl-10 pt-4 relative flex flex-col bg-hci-general-dark lg:bg-transparent sm:h-28'>
                 <div className='z-10 flex justify-between items-center'>
                     <Link href='/'>
-                        <a className='no-underline z-10 pb-6 items-center text-hci-general-dark text-3xl font-regular font-bold hover:text-hci-general-middle'>
+                        <a className='no-underline z-10 pb-6 items-center text-3xl font-regular font-bold hover:text-hci-general-middle sm:text-white lg:text-hci-general-dark'>
                             roadrunner
                         </a>
                     </Link>
