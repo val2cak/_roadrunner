@@ -15,3 +15,5 @@ const BurgerNavigation = ({ isOpen, menuItems, setIsOpen }) => {
         </main>
     );
 };
+
+export default BurgerNavigation;
