@@ -22,7 +22,7 @@ const NavBar = ({ classes, navigationItems }) => {
                             className={`no-underline text-white lg:text-hci-general-dark mb-2.5 px-7 lg:px-8 py-2 whitespace-nowrap hover:bg-hci-general-middle lg:hover:bg-hci-general-dark font-regular text-2xl ${
                                 isActive(menuItemPath)
                                     ? 'bg-hci-general-middle lg:bg-hci-general-dark text-white font-bold'
-                                    : ''
+                                    : 'text-white lg:text-hci-general-dark'
                             } hover:text-white cursor-pointer`}
                         >
                             {item}
