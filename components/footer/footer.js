@@ -18,7 +18,7 @@ const renderLegalLinks = () =>
         <Col className='flex justify-center' key={link.url}>
             <div className='mb-2'>
                 <Link href={link.url}>
-                    <a className='no-underline text-footer-light hover:text-white'>
+                    <a className='no-underline text-hci-footer-light hover:text-white'>
                         {link.label}
                     </a>
                 </Link>
@@ -99,7 +99,9 @@ const Footer = () => {
                     </a>
                 </div>
 
-                <div className={`flex justify-center text-xs font-extralight pb-1`}>
+                <div
+                    className={`text-hci-footer-light flex justify-center text-xs font-extralight pb-1`}
+                >
                     All rights reserved ©roadrunner
                 </div>
             </Col>
