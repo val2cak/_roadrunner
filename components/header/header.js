@@ -19,7 +19,7 @@ const Header = () => {
     }, [isClicked]);
 
     return (
-        <Row className='pr-0'>
+        <Row className='pr-0 md:hidden'>
             <header className='pl-5 lg:pl-10 pt-4 relative flex flex-col bg-hci-header lg:bg-transparent sm:h-28'>
                 <div className='z-10 flex justify-between items-center'>
                     <Link href='/'>
@@ -37,7 +37,7 @@ const Header = () => {
                         <img
                             onClick={() => setIsClicked(!isClicked)}
                             className={`h-7 transform scale-75 cursor-pointer z-50 transition-all ease-linear duration-500 ${
-                                isClicked ? 'transform rotate-90' : ''
+                                isClicked ? 'transform rotate-90 fill-white' : ''
                             }`}
                             src={'/hamburger.svg'}
                             alt='Menu'
