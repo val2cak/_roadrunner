@@ -28,6 +28,11 @@ const Header = () => {
                         </a>
                     </Link>
                     <div className='pb-6 md:pl-[500px] flex items-center lg:hidden'>
+                        <Link href='/'>
+                            <a className='no-underline z-10 pb-6 items-center text-white text-3xl md:text-2xl lg:text-3xl font-regular font-bold hover:text-hci-general-middle'>
+                                roadrunner
+                            </a>
+                        </Link>
                         <BurgerNavigation
                             navigationItems={navigationItems}
                             isOpen={isClicked}
