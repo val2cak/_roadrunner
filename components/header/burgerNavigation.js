@@ -1,4 +1,5 @@
 import NavBar from './navbar';
+import Link from 'next/link';
 
 const BurgerNavigation = ({ isOpen, navigationItems, setIsOpen }) => {
     return (
