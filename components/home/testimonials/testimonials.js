@@ -60,7 +60,7 @@ const Testimonials = () => {
                 </div>
                 <div className='tracking-wide z-10 row text-hci-general-dark font-bold font-regular'>
                     <Link href='/travel'>
-                        <a className='flex items-center justify-end hover:text-hci-footer-light'>
+                        <a className='no-underline flex items-center justify-end hover:text-hci-footer-light'>
                             <p className='inline-block pl-3 text-hci-general-dark'>
                                 DESTINATIONS
                             </p>
