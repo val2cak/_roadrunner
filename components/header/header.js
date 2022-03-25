@@ -23,16 +23,14 @@ const Header = () => {
             <header className='pl-5 lg:pl-10 pt-4 relative flex flex-col bg-hci-general-dark lg:bg-transparent sm:h-28'>
                 <div className='z-10 flex justify-between items-center'>
                     <Link href='/'>
-                        <a className='no-underline z-10 pb-6 items-center text-hci-general-dark text-3xl md:text-2xl lg:text-3xl font-regular font-bold hover:text-hci-general-middle'>
+                        <a className='hidden lg:block no-underline z-10 pb-6 items-center text-hci-general-dark text-3xl font-regular font-bold hover:text-hci-general-middle'>
+                            roadrunner
+                        </a>
+                        <a className='lg:hidden no-underline z-10 pb-6 items-center text-white text-3xl font-regular font-bold hover:text-hci-general-middle'>
                             roadrunner
                         </a>
                     </Link>
                     <div className='pb-6 md:pl-[500px] flex items-center lg:hidden'>
-                        <Link href='/'>
-                            <a className='no-underline z-10 pb-6 items-center text-white text-3xl md:text-2xl lg:text-3xl font-regular font-bold hover:text-hci-general-middle'>
-                                roadrunner
-                            </a>
-                        </Link>
                         <BurgerNavigation
                             navigationItems={navigationItems}
                             isOpen={isClicked}
