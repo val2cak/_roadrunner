@@ -42,7 +42,7 @@ const Testimonials = () => {
     return (
         <>
             <Row className='bg-gradient-to-b from-hci-general-light to-white pb-20'>
-                <Row className='flex justify-start'>
+                <Row className='flex justify-start p-5'>
                     <h1 className='-mb-11 px-20 text-4xl lg:text-4xl leading-10 font-satisfy text-hci-cursive mt-5 md:mt-2 2xl:pl-48'>
                         start
                     </h1>
