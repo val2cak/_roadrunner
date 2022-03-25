@@ -1,6 +1,6 @@
 import NavBar from './navbar';
 
-const BurgerNavigation = ({ isOpen, menuItems, setIsOpen }) => {
+const BurgerNavigation = ({ isOpen, navigationItems, setIsOpen }) => {
     return (
         <main
             className={`${
@@ -10,7 +10,7 @@ const BurgerNavigation = ({ isOpen, menuItems, setIsOpen }) => {
         >
             <div className='pl-16 no-underline text-white font-regular font-bold text-lg pt-32'>
                 <div className='pl-10 text-3xl text-white'>roadrunner</div>
-                <Navigation menuItems={menuItems} />
+                <NavBar navigationItems={navigationItems} />
             </div>
         </main>
     );
