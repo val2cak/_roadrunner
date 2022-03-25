@@ -8,8 +8,8 @@
 
 @import 'tailwindcss/utilities';
 
-a {
-    color: white;
+html {
+    @apply text-white;
 }
 
 .z--1 {
