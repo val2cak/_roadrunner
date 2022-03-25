@@ -19,7 +19,7 @@ const GeneralInfo = () => {
             <Col
                 sm={12}
                 lg={6}
-                className='pr-5 lg:pr-72 items-baseline md:align-center pl-7 md:pl-10 lg:pl-0'
+                className='pr-5 lg:pr-72 items-baseline md:align-center pl-10 lg:pl-5'
             >
                 <h1 className='-mb-10 text-4xl lg:text-4xl leading-10 font-satisfy text-hci-cursive mt-5 md:mt-2'>
                     why
