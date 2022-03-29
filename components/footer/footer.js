@@ -29,7 +29,7 @@ const renderLegalLinks = () =>
 const Footer = () => {
     return (
         <Row className='bg-hci-footer-dark text-hci-footer-light font-regular flex justify-center'>
-            <Row className='hidden md:block p-0'>
+            <div className='hidden md:block p-0'>
                 <Image
                     src={Img}
                     layout='responsive'
@@ -38,7 +38,7 @@ const Footer = () => {
                     height={400}
                     alt='Footer image'
                 />
-            </Row>
+            </div>
             <Col sm={12} md={8}>
                 <Row className='flex justify-center pt-4 text-xs sm:text-sm md:text-lg'>
                     {renderLegalLinks()}

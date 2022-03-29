@@ -29,7 +29,7 @@ const DestinationInfo = ({ destination }) => {
             <Row
                 sm={12}
                 lg={6}
-                className='flex items-center justify-center leading-10 font-regular text-sm md:text-sm lg:text-md py-12 md:py-16 lg:py-24 px-5'
+                className='flex items-center justify-center font-regular text-sm md:text-sm lg:text-md py-12 md:py-16 lg:py-24 px-5'
             >
                 {destination.destinationContainer}
             </Row>

@@ -22,7 +22,7 @@ const PostInfo = ({ blogPost }) => {
                     </p>
                 </div>
             </Row>
-            <Row className='text-black flex items-center justify-center leading-10 font-regular text-sm md:text-sm lg:text-md py-12 md:py-16 lg:py-24 px-5'>
+            <Row className='text-black flex items-center justify-center font-regular text-sm md:text-sm lg:text-md py-12 md:py-16 lg:py-24 px-5'>
                 {blogPost.descriptionBox}
             </Row>
         </Row>

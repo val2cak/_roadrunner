@@ -4,18 +4,6 @@ import Image from 'next/image';
 const GeneralInfo = () => {
     return (
         <Row className='flex items-center bg-gradient-to-b from-hci-general-dark to-hci-general-light'>
-            <Col sm={12} lg={6} className='py-20 flex justify-center'>
-                <Image
-                    src={`/assets/home/whychooseus.png`}
-                    layout='fixed'
-                    width={300}
-                    height={450}
-                    objectFit='cover'
-                    priority
-                    alt='Hero image'
-                    className={`rounded-lg`}
-                />
-            </Col>
             <Col
                 sm={12}
                 lg={6}
@@ -42,6 +30,18 @@ const GeneralInfo = () => {
                     your time and find the perfect one for you. Enjoy your next trip,
                     we will take care of the rest.
                 </p>
+            </Col>
+            <Col sm={12} lg={6} className='py-20 flex justify-center'>
+                <Image
+                    src={`/assets/home/whychooseus.png`}
+                    layout='fixed'
+                    width={300}
+                    height={450}
+                    objectFit='cover'
+                    priority
+                    alt='Hero image'
+                    className={`rounded-lg`}
+                />
             </Col>
         </Row>
     );
