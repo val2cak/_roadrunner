@@ -12,8 +12,8 @@ const Home = () => {
     return (
         <>
             <NextSeo title={SEO.title} />
-            <Container fluid className={'no-gutters p-0'}>
-                <Header classes='h-30' />
+            <Container fluid className={'no-gutters'}>
+                <Header classes='h-30 pl-3' />
                 <Cover />
                 <GeneralInfo />
                 <Testimonials />
